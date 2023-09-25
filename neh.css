@@ -1,0 +1,39 @@
+	html, body {
+		min-height: 100%;	
+	}	  
+
+	  .box {
+ 	  	padding: 40px;
+ 	  	border-radius: 5px;	  	
+ 	  	margin-bottom: 30px; 	  	
+	  }
+	  
+ 	  .boxPrincipal {
+ 	  	background-color: rgb(158,197,254);
+ 	  }
+
+ 	  .boxCursos {
+ 	  	background-color: rgb(207,226,255);
+ 	  } 	  
+
+ 	  .marginCards {
+ 	  	margin-bottom: 30px;
+ 	  }
+
+ 	  .rodape {
+		padding: 30px;
+
+.ratio-4x3 
+  @include media-breakpoint-up md
+    --bs-aspect-ratio: 50%; // 2x1
+		$aspect-ratios: 
+  "1x1": 100%,
+  "4x3": calc(3 / 4 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%)
+  
+}
+
+ 	  }
+
+ 	
